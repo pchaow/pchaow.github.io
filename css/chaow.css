@@ -1,0 +1,32 @@
+@font-face {
+    font-family: sovMonospace;
+    src: url(../fonts/SOV_monospace.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: embedNiramitAs;
+    src: url(../fonts/THNiramitAS.ttf) format('truetype');
+}
+
+body {
+    font-family: consolas, embedNiramitAs;
+    background-color: hsl(0, 0%, 4%);
+}
+
+.is-green {
+    color:rgb(0, 255, 0);
+}
+
+body.is-green > nav {
+    border-bottom: solid green 1px;
+    margin-bottom: 1em;
+}
+
+a:hover {
+    color: green;
+  }
+
+.navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active, .navbar.is-black .navbar-brand .navbar-link:hover, .navbar.is-black .navbar-brand .navbar-link.is-active {
+      background-color: darkgreen;
+}
+

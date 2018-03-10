@@ -1,0 +1,29 @@
+{
+  "name": "pchaow.github.io",
+  "version": "1.0.0",
+  "description": "Chaow Porkaew Website",
+  "main": "index.html",
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "milligram": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pchaow/pchaow.github.io.git"
+  },
+  "keywords": [
+    "chaow",
+    "porkaew",
+    "website"
+  ],
+  "author": "Chaow Porkaew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pchaow/pchaow.github.io/issues"
+  },
+  "homepage": "https://github.com/pchaow/pchaow.github.io#readme"
+}
