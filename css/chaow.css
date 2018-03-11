@@ -8,18 +8,25 @@
     src: url(../fonts/THNiramitAS.ttf) format('truetype');
 }
 
-body {
-    font-family: consolas, embedNiramitAs;
+@font-face {
+    font-family: THChakraPetch;
+    src: url(../fonts/THChakraPetch.ttf) format('truetype');
+}
+
+
+html, body {
+    font-family: consolas,embedNiramitAs, THChakraPetch, sovMonospace ;
     background-color: hsl(0, 0%, 4%);
 }
+
+
 
 .is-green {
     color:rgb(0, 255, 0);
 }
 
 body.is-green > nav {
-    border-bottom: double green;
-    border-bottom-width: 5px;
+    border-bottom : solid rgb(0,255,0) 5px;
 }
 
 a:hover {
@@ -38,7 +45,9 @@ a:hover {
 
 .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active, .navbar.is-black .navbar-start .navbar-link:hover, .navbar.is-black .navbar-start .navbar-link.is-active, .navbar.is-black .navbar-end > a.navbar-item:hover, .navbar.is-black .navbar-end > a.navbar-item.is-active, .navbar.is-black .navbar-end .navbar-link:hover, .navbar.is-black .navbar-end .navbar-link.is-active
 {
-    background-color: darkgreen;
+    color : rgb(255, 0, 0);
+    font-weight:bold;
+    background-color: rgb(0, 255, 0);;
 }
 
 .title, .subtitle  {
@@ -48,4 +57,35 @@ a:hover {
 .subtitle strong
 {
     color : rgb(0, 255, 255);
+}
+
+.box{
+    border: solid rgb(0,255,0) 5px;
+    background-color: transparent;
+}
+
+.greenFilter{
+
+    filter: ;
+
+    -webkit-filter: ;
+
+    -moz-filter: ;
+
+}
+
+.greenFilter {
+    position:relative;
+}
+
+.greenFilter:after{
+    position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+    background: rgb(0,128,0);
+    mix-blend-mode: overlay;
+}
+
+.greenFilter:hover:after{
+    position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+    background: rgba(0,0,0,0);
+    mix-blend-mode: initial;
 }
