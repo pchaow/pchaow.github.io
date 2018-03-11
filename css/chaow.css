@@ -18,15 +18,34 @@ body {
 }
 
 body.is-green > nav {
-    border-bottom: solid green 1px;
-    margin-bottom: 1em;
+    border-bottom: double green;
+    border-bottom-width: 5px;
 }
 
 a:hover {
     color: green;
-  }
+}
+
 
 .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active, .navbar.is-black .navbar-brand .navbar-link:hover, .navbar.is-black .navbar-brand .navbar-link.is-active {
       background-color: darkgreen;
 }
 
+
+.navbar.is-black .navbar-start > .navbar-item, .navbar.is-black .navbar-start .navbar-link, .navbar.is-black .navbar-end > .navbar-item, .navbar.is-black .navbar-end .navbar-link {
+    color : rgb(0, 255, 0);
+}
+
+.navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active, .navbar.is-black .navbar-start .navbar-link:hover, .navbar.is-black .navbar-start .navbar-link.is-active, .navbar.is-black .navbar-end > a.navbar-item:hover, .navbar.is-black .navbar-end > a.navbar-item.is-active, .navbar.is-black .navbar-end .navbar-link:hover, .navbar.is-black .navbar-end .navbar-link.is-active
+{
+    background-color: darkgreen;
+}
+
+.title, .subtitle  {
+    color : rgb(0, 255, 0);
+}
+
+.subtitle strong
+{
+    color : rgb(0, 255, 255);
+}

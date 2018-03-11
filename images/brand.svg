@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="312.17945"
-     inkscape:cy="211.22584"
+     inkscape:zoom="1.979899"
+     inkscape:cx="425.30517"
+     inkscape:cy="137.75154"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,25 +57,14 @@
      transform="translate(0,-259.95832)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:25.59567261px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.63989186"
-       x="53.658272"
-       y="288.77545"
+       style="font-style:normal;font-weight:normal;font-size:31.41343117px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.78533584"
+       x="7.6831384"
+       y="292.49374"
        id="text3701"><tspan
          sodipodi:role="line"
          id="tspan3699"
-         x="53.658272"
-         y="288.77545"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.77859116px;font-family:'TH Chakra Petch';-inkscape-font-specification:'TH Chakra Petch';fill:#00ff00;stroke-width:0.63989186">CHAOW</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:23.85746956px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.59643668;"
-       x="12.074569"
-       y="296.08182"
-       id="text3705"><tspan
-         sodipodi:role="line"
-         id="tspan3703"
-         x="12.074569"
-         y="296.08182"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:44.53394699px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';fill:#00ff00;stroke-width:0.59643668">C</tspan></text>
+         x="7.6831384"
+         y="292.49374"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.63840866px;font-family:'TH Kodchasal';-inkscape-font-specification:'TH Kodchasal';fill:#00ff00;stroke-width:0.78533584">CHAOW</tspan></text>
   </g>
 </svg>
